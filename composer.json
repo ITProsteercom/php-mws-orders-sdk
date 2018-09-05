@@ -1,0 +1,18 @@
+{
+  "name": "r.kozin/mws-orders",
+  "description": "PHP MWS Orders SDK",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Roman Kozin",
+      "email": "r.kozin@itprosteer.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "MwsOrders\\": "src/"
+    }
+  }
+}
