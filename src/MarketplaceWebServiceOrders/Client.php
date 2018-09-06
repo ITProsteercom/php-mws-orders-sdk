@@ -1,19 +1,19 @@
 <?php namespace MwsOrders;
 
 use Exception;
-use MarketplaceWebServiceOrders_Model_GetOrderRequest;
-use MarketplaceWebServiceOrders_Model_GetOrderResponse;
-use MarketplaceWebServiceOrders_Model_GetServiceStatusRequest;
-use MarketplaceWebServiceOrders_Model_GetServiceStatusResponse;
-use MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenRequest;
-use MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenResponse;
-use MarketplaceWebServiceOrders_Model_ListOrderItemsRequest;
-use MarketplaceWebServiceOrders_Model_ListOrderItemsResponse;
-use MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenRequest;
-use MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenResponse;
-use MarketplaceWebServiceOrders_Model_ListOrdersRequest;
-use MarketplaceWebServiceOrders_Model_ListOrdersResponse;
-use MarketplaceWebServiceOrders_Model_ResponseHeaderMetadata;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetOrderRequest;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetOrderResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetServiceStatusRequest;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetServiceStatusResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenRequest;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsRequest;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenRequest;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersRequest;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ResponseHeaderMetadata;
 
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.
