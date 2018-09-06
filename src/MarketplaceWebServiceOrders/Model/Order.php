@@ -1,4 +1,5 @@
-<?php /** @noinspection ALL */
+<?php namespace MwsOrders\Model;
+/** @noinspection ALL */
 
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.
@@ -23,8 +24,6 @@ use MwsOrders\MarketplaceWebServiceOrders_Model;
 /**
  * @see MarketplaceWebServiceOrders_Model
  */
-
-
 
 
 /**

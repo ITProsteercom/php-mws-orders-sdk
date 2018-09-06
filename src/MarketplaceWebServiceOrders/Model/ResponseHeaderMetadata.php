@@ -1,4 +1,4 @@
-<?php
+<?php namespace MwsOrders\Model;
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,7 +16,6 @@
  * Library Version: 2018-08-01
  * Generated: Wed Aug 29 10:45:11 PDT 2018
  */
-
 class MarketplaceWebServiceOrders_Model_ResponseHeaderMetadata
 {
 
