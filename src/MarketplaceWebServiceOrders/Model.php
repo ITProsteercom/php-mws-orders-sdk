@@ -3,6 +3,7 @@
 use DOMDocument;
 use DOMElement;
 use DOMXPath;
+use Exception;
 
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.
@@ -35,6 +36,7 @@ abstract class MarketplaceWebServiceOrders_Model
      * Construct new model class
      *
      * @param mixed $data - DOMElement or Associative Array to construct from.
+     * @throws Exception
      */
     public function __construct($data = null)
     {
