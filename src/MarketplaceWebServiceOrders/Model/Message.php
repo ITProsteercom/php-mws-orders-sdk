@@ -17,6 +17,7 @@
  * Generated: Wed Aug 29 10:45:11 PDT 2018
  */
 
+use Locale;
 use MwsOrders\MarketplaceWebServiceOrders_Model;
 
 /**

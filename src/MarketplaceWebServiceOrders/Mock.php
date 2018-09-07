@@ -1,11 +1,17 @@
 <?php namespace MwsOrders;
 
-use MarketplaceWebServiceOrders_Model_GetOrderResponse;
-use MarketplaceWebServiceOrders_Model_GetServiceStatusResponse;
-use MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenResponse;
-use MarketplaceWebServiceOrders_Model_ListOrderItemsResponse;
-use MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenResponse;
-use MarketplaceWebServiceOrders_Model_ListOrdersResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetOrderResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetServiceStatusResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetOrderResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_GetServiceStatusResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsByNextTokenResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrderItemsResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersByNextTokenResponse;
+use MwsOrders\Model\MarketplaceWebServiceOrders_Model_ListOrdersResponse;
 
 /*******************************************************************************
  * Copyright 2009-2018 Amazon Services. All Rights Reserved.

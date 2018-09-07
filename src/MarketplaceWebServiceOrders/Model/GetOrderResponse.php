@@ -17,6 +17,8 @@
  * Generated: Wed Aug 29 10:45:11 PDT 2018
  */
 
+use DOMDocument;
+use DOMXPath;
 use MwsOrders\MarketplaceWebServiceOrders_Model;
 
 /**
