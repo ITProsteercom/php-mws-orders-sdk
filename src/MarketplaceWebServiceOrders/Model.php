@@ -209,6 +209,7 @@ abstract class MarketplaceWebServiceOrders_Model
                 if ($this->_isComplexType($fieldType)) {
                     $elements = $xpath->query("./*[local-name()='$fieldName']", $dom);
                     if ($elements->length == 1) {
+                        $className = "MwsOrders\\Model\\" . $fieldType;
                         $this->_fields[$fieldName]['FieldValue'] = new $className($elements->item(0));
                     }
                 } else {
