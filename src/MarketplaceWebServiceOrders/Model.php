@@ -170,6 +170,8 @@ abstract class MarketplaceWebServiceOrders_Model
 
         foreach ($this->_fields as $fieldName => $field) {
             $fieldType = $field['FieldType'];
+            $className = "MwsOrders\\Model\\" . $fieldType;
+
             if (is_array($fieldType)) {
                 if ($fieldType[0] == "object") {
                     $elements = $dom->childNodes;
@@ -185,7 +187,8 @@ abstract class MarketplaceWebServiceOrders_Model
                     }
                     if ($elements->length >= 1) {
                         foreach ($elements as $element) {
-                            $this->_fields[$fieldName]['FieldValue'][] = new $fieldType[0]($element);
+                            $className = "MwsOrders\\Model\\" . $fieldType[0];
+                            $this->_fields[$fieldName]['FieldValue'][] = new $className($element);
                         }
                     }
                 } else {
@@ -206,7 +209,6 @@ abstract class MarketplaceWebServiceOrders_Model
                 if ($this->_isComplexType($fieldType)) {
                     $elements = $xpath->query("./*[local-name()='$fieldName']", $dom);
                     if ($elements->length == 1) {
-                        $className = "MwsOrders\\Model\\" . $fieldType;
                         $this->_fields[$fieldName]['FieldValue'] = new $className($elements->item(0));
                     }
                 } else {
