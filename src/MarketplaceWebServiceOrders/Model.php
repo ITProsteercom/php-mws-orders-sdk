@@ -170,7 +170,6 @@ abstract class MarketplaceWebServiceOrders_Model
 
         foreach ($this->_fields as $fieldName => $field) {
             $fieldType = $field['FieldType'];
-            $className = "MwsOrders\\Model\\" . $fieldType;
 
             if (is_array($fieldType)) {
                 if ($fieldType[0] == "object") {
